@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+:root{
+    --text-font: "Roboto",
+    sans-serif;
+}
+.container{
+    min-width: 1302px;
+    
+}
+header{
+    min-height: 72px;
+    padding-left: 66px;
+    padding-right: 66px;
+    background-color: #8C0A0D;
+    position: relative;
+    
+}
+.site_logo{
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+.clearfix::after {
+    content: "";
+    clear: both;  
+    display: block;
+}
+
+.navigation_manu{
+    position: absolute;
+    left: 369px;
+    top: 38px;
+}
+.navigation_manu li {
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+
+}
+.navigation_manu a{
+    color: #F8BD6F;
+    text-decoration: none;
+}
+.navigation_manu li:not(:last-child){
+    margin-right: 30px;
+}
+.change_leng_btn{
+    float: right;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #F8BD6F;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.change_leng_btn::before{
+    content: "";
+    background-image: url(English.png);
+    
+    display: block;
+    position: absolute;
+    height: 18px;
+    width: 26px;
+    left: -39px;
+    
+}
+main{
+    min-height: 684px;
+    background-image: url(фон.png);
+    background-size: 684px 1300px ;
+    
+    
+    
+}
+.back{
+ background-color: rgba(245, 232, 198, .8);
+ min-height: 684px;
+
+}
+.slider{
+    padding-top:24px;
+    margin-left: 66px;
+    position: relative;
+    
+}
+.slider h1{
+    position: absolute;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #35040C;
+    margin-top: 15px;
+    margin-left: 359px;
+    margin-bottom: 23px;
+    }
+    .slider_image {
+        border: 3px solid;
+        color: #35040C;
+    }
+.left-arrow{
+    position: absolute;
+    top: 156px;
+    left: 27px;
+    border: none;
+    outline: none;
+    background-color: rgba(245, 232, 198, 0);
+    cursor: pointer;
+
+}
+.right-arrow {
+    position: absolute;
+    top: 156px;
+    left: 1086px;
+    border: none;
+    outline: none;
+    background-color: rgba(245, 232, 198, 0);
+    cursor: pointer;
+
+}
+.More_btn{
+    position: absolute;
+    top: 108px;
+    left: 490px;
+    border: none;
+    outline: none;
+width: 190px;
+height: 43px;
+font-size: 24px;
+color: #030303;
+    cursor: pointer;
+    background: #F6CC79;
+    box-shadow: 0 5px 0 rgba(191, 103, 13, 1);
+    border-radius: 10%;
+    margin-top: 24px;
+}
+.slider_dots{
+    position: absolute;
+    bottom: 3px;
+    left: 553px;
+}
+.slider_dots li{
+    float: left;
+    margin-right: 8px;
+    
+}
+.orange_dot {
+    background-color: #BF670D;
+    border: none;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+.white_dot {
+      background-color: #fff;
+      border: none;
+     width: 18px;
+     height: 18px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+       outline: none;
+       cursor: pointer;
+}
+.information_block{
+    margin-left: 65px;
+    padding-top: 30px;
+}
+.information_list{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.information_list li{
+    width: 250px;
+}
+.information_list li:last-child{
+    margin-right: 38px;
+}
+.information_list h2{
+    font-size: 18px;
+    color: #060606;
+    
+}
+.title_one{
+    padding-bottom: 57px;
+}
+.title_two{
+    padding-bottom: 35px;
+}
+.title_three{
+    padding-bottom: 12px;
+}
+.title_four{
+    padding-bottom: 55px;
+}
+.information_list p{
+    font-size: 16px;
+    color: #030303;
+}
+footer{
+    padding-right: 65px;
+    padding-left: 65px;
+    min-height: 71px;
+    background-color: #8C0A0D;
+    position: relative;
+    
+}
+.contact_info{
+    padding-top: 13px;
+    color: #F8B168;
+    font-size: 14px;
+    font-weight: 700;
+    }
+
+.contact_info a{
+      color: #F8B168;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      list-style: none;
+}
+footer li{
+    float: left;
+  
+}
+.site_link {
+    margin-right: 120px;
+
+}
+.adress{
+   margin-right: 156px;
+}
+.phone_number{
+    margin-right: 168px;
+}
+
+
+.social_networks{
+    position: absolute;
+    top: 22px;
+    right: 68px;
+}
+.social_networks li{
+    margin-right: 8px;
+    
+}
